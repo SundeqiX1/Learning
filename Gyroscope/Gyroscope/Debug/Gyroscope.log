@@ -1,0 +1,18 @@
+﻿  m_function.c
+e:\00program\programc\gyroscope\gyroscope\m_function.c(48): warning C4013: “DELAY_US”未定义；假设外部返回 int
+e:\00program\programc\gyroscope\gyroscope\m_function.c(53): warning C4013: “Uartc_process”未定义；假设外部返回 int
+e:\00program\programc\gyroscope\gyroscope\m_function.c(26): warning C4305: “初始化”: 从“double”到“float”截断
+e:\00program\programc\gyroscope\gyroscope\m_function.c(33): warning C4101: “tranqnb”: 未引用的局部变量
+e:\00program\programc\gyroscope\gyroscope\m_function.c(32): warning C4101: “upqnb”: 未引用的局部变量
+e:\00program\programc\gyroscope\gyroscope\m_function.c(152): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\00program\programc\gyroscope\gyroscope\m_function.c(153): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+m_function.obj : error LNK2019: 无法解析的外部符号 _DELAY_US，该符号在函数 _sins_process 中被引用
+m_function.obj : error LNK2019: 无法解析的外部符号 _Uartc_process，该符号在函数 _sins_process 中被引用
+m_function.obj : error LNK2001: 无法解析的外部符号 _Aaccx
+m_function.obj : error LNK2001: 无法解析的外部符号 _Aaccy
+m_function.obj : error LNK2001: 无法解析的外部符号 _Aaccz
+m_function.obj : error LNK2001: 无法解析的外部符号 _GYrox
+m_function.obj : error LNK2001: 无法解析的外部符号 _GYroy
+m_function.obj : error LNK2001: 无法解析的外部符号 _GYroz
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+E:\00Program\ProgramC\Gyroscope\Debug\Gyroscope.exe : fatal error LNK1120: 9 个无法解析的外部命令
