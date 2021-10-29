@@ -1,0 +1,4 @@
+﻿  tset.c
+e:\00program\learning\test\test\tset.c(14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\00program\learning\test\test\tset.c(13): warning C4305: “初始化”: 从“double”到“float”截断
+  TEST.vcxproj -> E:\00Program\Learning\TEST\Debug\TEST.exe
