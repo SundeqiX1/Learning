@@ -90,10 +90,66 @@
 //	return 0;
 //}
 
-int main()
-{
-	int i = -20;
-	unsigned int j = 10;
-	printf("%d\n", i + j);
-	return 0;
-}
+//int main()
+//{
+//	int i = -20;
+//	unsigned int j = 10;
+//	printf("%d\n", i + j);
+//	return 0;
+//}
+
+//#include <string.h>
+//int main()
+//{
+//	char a[1000];
+//	int i;
+//	for (i = 0; i < 1000; i++)
+//	{
+//		a[i] = -1 - i;
+//	}
+//	printf("%d", strlen(a));
+//	return 0;
+//}
+//unsigned char i = 0;
+//int main()
+//{
+//	for (i = 0; i <= 255; i++)
+//	{
+//		printf("hello word\n");
+//	}
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	double d = 1E10;
+//	printf("%lf\n", d);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int n = 9;
+//	float *pFloat = (float*)&n;
+//	printf("n的值为：%d\n", n);
+//	printf("*pFloat的值为：%f\n", *pFloat);
+//
+//	*pFloat = 9.0;
+//	printf("num的值为：%d\n", n);
+//	printf("*pFloat的值为：%f\n", *pFloat);
+//	return 0;
+//}
+
+//int main()
+//{
+//	float f = 5.5;
+//	//5.5
+//	//101.1
+//	//(-1)^0*1.011*2^2
+//	//S=0,M=1.011,M=2
+//	//0 10000001 01100000000000000000000
+//	//0100 0000 1011 0000 0000 0000 0000 0000
+//	//40B00000
+//	return 0;
+//}
